@@ -22,7 +22,7 @@ body {
     font-family: "Red Hat Display";
     text-align: center;
 }
-/* , 10px 8px 15px gray; */
+
 .hero-img {
     max-width: 100%;
     height: auto;
@@ -33,10 +33,6 @@ body {
 .card-details-container {
     padding: 1em 2.5em 2em 2.5em;
 }
-
-/* .card-header {
-    border: 1px solid;
-} */
 
 .card-header h2 {
     font-weight: 900;
@@ -149,4 +145,11 @@ body {
 .cancel-container a:hover {
     color: var(--dark-blue);
     transition: color 250ms;
+}
+
+@media (max-width: 375px) {
+    .card-container {
+        margin: 5em auto;
+        min-width: 325px;
+    }
 }
