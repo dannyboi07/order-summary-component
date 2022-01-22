@@ -152,4 +152,12 @@ body {
         margin: 5em auto;
         min-width: 325px;
     }
+
+    .card-details-container {
+        padding: 1.5em;
+    }
+
+    .plan-details {
+        padding: 1em;
+    }
 }
